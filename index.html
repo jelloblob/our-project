@@ -3,13 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<title>mine-a-tron</title>
-<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body>
-
-	
-	<div id="minebutton">
-		<button type="minebutton"style="width:100px;height:50px;font-size:20px"> Mine </button>	
+<body>	
+	<div id="button">
+		<button type="button"style="width:100px;height:50px;font-size:20px"> Mine </button>	
+	<p id='hiscore'></p>
+	<div id="button">
+		<button type="button"style="width:100px;height:50px;font-size:20px" onclick="computerThink()"> Mine </button>	
+		<button type="button"style="width:100px;height:50px;font-size:20px"> Mine </button>	
+	<p id="score"></p>
 	</div>
+	<script type="text/javascript"src="app.js"></script>
 </body>
 </html>
